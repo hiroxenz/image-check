@@ -1,15 +1,13 @@
 {
-  "name": "my-vercel-app",
+  "name": "captcha-analyzer",
   "version": "1.0.0",
-  "private": true,
+  "description": "API analisa gambar captcha (hash, ukuran, format) - Vercel Ready",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "vercel dev",
+    "start": "node index.js"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
   }
 }
